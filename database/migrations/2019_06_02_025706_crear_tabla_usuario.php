@@ -17,7 +17,7 @@ class CrearTablaUsuario extends Migration
             $table->bigIncrements('id');
             $table->string('usuario','50');
             $table->string('password','100');
-            $table->string('nomre','50');
+            $table->string('nombre','50');
             $table->timestamps();
         });
     }
